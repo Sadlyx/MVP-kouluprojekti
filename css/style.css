@@ -75,7 +75,7 @@ h2{
 }
 h3{
 	font-size:1.4rem;
-	font-family: Shrikhand;
+	font-family: Shrikhand, arial;
 }
 h4{
 	font-size:1.2rem;
@@ -94,7 +94,7 @@ main > ul{
 }
 
 a {
-	font-family: 'Cutive Mono';
+	font-family: 'Cutive Mono', arial;
 }
 
 .frontpage{

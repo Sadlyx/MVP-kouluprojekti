@@ -1,0 +1,43 @@
+
+<ul>
+<a href="etusivu.html"><li>Etusivu</li></a>
+<a href="tekijat.html"><li>Tekijät</li></a>
+<a href="it-tehtavat.html"><li>It-tehtävät</li></a>
+<a href="ms_office.html"><li>MS office</li></a>
+<li><a href="#" class="d_btn">It-aloja</a>
+	<ul class="dropdown " data-parent="It-aloja">
+	<a href="#"><li>Tietoturva ja Tietoverkot</li></a>
+	<a href="#"><li>Ohjelmointi</li></a>
+	<a href="#"><li>IT-tyokalut</li></a>
+	<a href="#"><li>Web-ohjelmointi</li></a>
+	<a href="#"><li>Projektinhallinta</li></a>
+	<a href="#"><li>Liiketoiminta</li></a>
+	</ul>
+	</li>
+<a href="english/englishetusivu.html"><li>English</li></a>
+</ul>
+ 
+<script>
+	$(".d_btn").mouseenter(function(){
+		$(this).width($(this).width());
+		$("ul").find("[data-parent='" + $(this).html() + "']").fadeIn(250);
+			
+		});
+	$(".d_btn").click(function(){
+		if($("ul").find("[data-parent='" + $(this).html() + "']").css("opacity") == 1 && $("ul").find("[data-parent='" + $(this).html() + "']").css("display") != "none"){
+			$("ul").find("[data-parent='" + $(this).html() + "']").fadeOut(250);
+		} else{
+		$("ul").find("[data-parent='" + $(this).html() + "']").fadeIn(250);
+		} 
+	});
+	$(".dropdown").mouseleave(function(){
+		$(this).fadeOut(250);
+	});
+</script>
+<!--[if IE]>
+<style>
+body {
+margin-top:6rem;
+}
+</style>
+<![endif]-->

@@ -1,0 +1,17 @@
+1. rekisteröidy githubiin
+2. https://desktop.github.com/ lataa github desktop
+2. kirjaudu sovellukseen
+3. mene sivulle https://github.com/Sadlyx/MVP-kouluprojekti sieltä virheä näppäin "Clone or download" klik
+	 paina "Open in desktop", salli suoritus
+	 valitse paikka kovalevyltäsi mihin tallennat sen (default on ihan hyvä)
+4. kun haluat muutta sivuja mene juuri asettamaasi kansioon, default 	C:\Users\{user}\Documents\GitHub\MVP-kouluprojekti
+sieltä vaan muokkaa tiedostoja ja ns debugaa ihan omalla koneella avamaalla joku html filu
+	Videot on rikki locaalissa mutta toimii kyl palvelimella ei kannata siis välittää
+5. kun olet tyytyväinen muutoksiin avaa taas ota github desktop auki
+6. sovelluksessa pitäisi näkyä tiedostot johon teit muutoksia, varmista että kaikki filut joiden muutokset haluat, kirjoita summary ja description ja paina commit 
+7. commitataan vain ns. valmiita tai isompia asioita, ei mitään 100 committia pientä muutotosta varten
+	(commit lisää muutokset kaikkien näkyviin)
+	
+sovelluksessa on "Sync" näppäin joka päivittää sinun locaalin hakemiston hithubista uudelleen, eli lataa muiden commitit. eli kannattaa välillä painella sitä, tai kun tultuu siltä että haluaa olla ajan tasalla. Sinun tekemiä muutoksia ei kuitenkaan poisteta
+
+sovelluksella yläreunassa on mustalla/tummalla pohjalla vaaka viiva jossa palloja, pallot kuvaa committeja ja ihan oikeassa reunassa on ns nyky hetki, eli voi tarkastella aikaisempia versioita. 

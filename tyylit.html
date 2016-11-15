@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Team Harambe</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta name="theme-color" content="#A73737">
+</head>
+<body class="bg-0">
+<header class="bg-2">
+	<img id="mobile_menu_btn" src="media/icons/menu_btn.png"/>
+	<nav class="bg-1" id="menu" width=50></nav>
+</header>
+<main>
+<article class="col-3 bg-3"><h1>Käytettään pääosin article elementtejä</h1><p>elementin class col-1 col-2 col-3 ja col-50 näkyy alla. Eli ns kolumnit "col-" luokka määrityksellä<br/>tausta värit "bg-" määrityksellä (bg-1, bg-2, bg-3, bg-4, bg-0) sivun alaosassa. bg-0 on sivun pohja väri<br/><br/>Voidaan käyttää myös sisäkkäin. Mobiilissa kaikki col- menee kokoruudun leveydelle, paitsi jos luokan perään laittaa -small esim col-50-small ni sitten vie puolet sivusta mobiililaitteellakin (ei ole luultavasti hyvän näköinen jos pakotettaan mobiililla näin)</p></article>
+<article class="col-1 bg-3">&lt;article class="col-1 bg-3"&gt;&lt;/article&gt;</article>
+<article class="col-1 bg-3">&lt;article class="col-1 bg-3"&gt;&lt;/article&gt;</article>
+<article class="col-1 bg-3"><h1>&lt;h1&gt; otsikko</h1>
+<p>&lt;p&gt; ihan vaan tekstiä</p>
+</article>
+
+<article class="col-50 bg-3">&lt;article class="col-50 bg-3"&gt;&lt;/article&gt;</article>
+<article class="col-50 bg-3">&lt;article class="col-50 bg-3"&gt;&lt;/article&gt;</article>
+
+<article class="col-2 bg-3">&lt;article class="col-2 bg-3"&gt;&lt;/article&gt;</article>
+<article class="col-1 bg-3">&lt;article class="col-1 bg-3"&gt;&lt;/article&gt;</article>
+
+
+<article class="col-1 bg-1">&lt;article class="col-1 bg-1"&gt;&lt;/article&gt;</article>
+<article class="col-1 bg-2">&lt;article class="col-1 bg-2"&gt;&lt;/article&gt;</article>
+<article class="col-1 bg-3">&lt;article class="col-1 bg-3"&gt;&lt;/article&gt;</article>
+<article class="col-50 bg-4">&lt;article class="col-50 bg-4"&gt;&lt;/article&gt;</article>
+<article class="col-50 bg-0">&lt;article class="col-50 bg-0"&gt;&lt;/article&gt;</article>
+
+
+<article class="col-50 bg-3">
+	<article class="col-2 bg-4"><h1>Hei</h1><p>MOI</p></article>
+	<article class="col-1 bg-0"><h1>Hei</h1><p>MOI</p></article>
+</article>
+<article class="col-50 bg-3">
+	<article class="col-1 bg-4"><h1>Hei</h1><p>MOI</p></article>
+	<article class="col-1 bg-2"><h1>Hei</h1><p>MOI</p></article>
+	<article class="col-1 bg-0"><h1>Hei</h1><p>MOI</p></article>
+</article>
+
+
+</main>
+<footer></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/_scripts.js"></script>
+</body>
+</html>

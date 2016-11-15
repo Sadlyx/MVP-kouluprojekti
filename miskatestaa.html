@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Team Harambe</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta name="theme-color" content="#A73737">
+</head>
+<body class="bg-0">
+<header class="bg-2">
+	<h3 class="pagetitle">Team Harambe</h3>
+	<img id="mobile_menu_btn" src="media/icons/menu_btn.png"/>
+	<nav class="bg-1" id="menu" width=50>
+<ul>
+<li><a href="#" class="d_btn">Etusivu</a>
+	<ul class="dropdown " data-parent="Etusivu">
+		<a href="tekijat.html"><li>Tekijat</li></a>	
+		<a href="it-tehtavat.html"><li>It-tehtavat</li></a>
+		<a href="tekijat.html"><li>Tekijat</li></a>	
+		<a href="it-tehtavat.html"><li>It-tehtavat</li></a>
+		<a href="tekijat.html"><li>Tekijat</li></a>	
+		<a href="it-tehtavat.html"><li>It-tehtavat</li></a>
+		<a href="tekijat.html"><li>Tekijat</li></a>	
+		<li><a href="#" class="d_btn">testi1</a>
+			<ul class="dropdown " data-parent="testi1">
+				<li><a href="#" class="d_btn">testi2</a>
+				<ul class="dropdown " data-parent="testi2">
+					<li><a href="#" class="d_btn">testi3</a>
+					<ul class="dropdown " data-parent="testi3">
+						<li><a href="#" class="d_btn">testi4</a>
+						<ul class="dropdown " data-parent="testi4">
+						<li><a href="#" class="d_btn">testi5</a>
+						<ul class="dropdown " data-parent="testi5">
+						<li><a href="#" class="d_btn">testi6</a>
+						<ul class="dropdown " data-parent="testi6">
+						<li><a href="#" class="d_btn">testi7</a>
+						<ul class="dropdown " data-parent="testi7">
+						<li><a href="#" class="d_btn">testi8</a>
+						<ul class="dropdown " data-parent="testi8">
+						<li><a href="#" class="d_btn">testi9</a>
+						<ul class="dropdown " data-parent="testi9">
+						<li><a href="#" class="d_btn">testi10</a>
+						<ul class="dropdown " data-parent="testi10">
+						</ul></li>
+						</ul></li>
+						</ul></li>
+						</ul></li>
+						</ul></li>
+						</ul></li>
+						</ul></li>
+					</ul></li>
+				</ul></li>
+		</ul></li>
+	</ul></li>
+
+<a href="tekijat.html"><li>Tekijat</li></a>	
+<a href="it-tehtavat.html"><li>It-tehtavat</li></a>
+	</ul>
+	</nav>
+</header>
+<main>
+
+</main>
+<footer></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script >
+$("#mobile_menu_btn").click(function(){
+	$("#menu").stop().dequeue().fadeToggle(250); 
+	/*if($("#menu").css("display") == "none"){
+		$("#menu").show(500);
+	} else {
+		$("#menu").hide(500);
+	}*/
+});
+$(".d_btn").mouseenter(function(){
+	$("ul").find("[data-parent='" + $(this).html() + "']").fadeIn(250);
+	
+});
+$(".d_btn").click(function(){
+	if($("ul").find("[data-parent='" + $(this).html() + "']").css("opacity") == 1 && $("ul").find("[data-parent='" + $(this).html() + "']").css("display") != "none"){
+		$("ul").find("[data-parent='" + $(this).html() + "']").fadeOut(250);
+	} else{
+	$("ul").find("[data-parent='" + $(this).html() + "']").fadeIn(250);
+	} 
+});
+$(".dropdown").mouseleave(function(){
+	$(this).fadeOut(250);
+});
+</script>
+</body>
+</html>

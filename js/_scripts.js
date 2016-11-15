@@ -11,6 +11,8 @@ $("#mobile_menu_btn").click(function(){
 		$("#menu").hide(500);
 	}*/
 });
+	$("#menu").load("_nav.html"); 
+	$("#engmenu").load("../engnav.html"); 
 	$("#menu").load("../_nav.html"); 
 	$("#engmenu").load("../engnav.html"); 
 	  

@@ -99,11 +99,14 @@ a {
 
 .frontpage{
 	color:white;
-	background: url('../media/images/harambe-the-gorilla.jpg') no-repeat center center fixed;
+	background-image: url('../media/images/gorilla.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover;
+	background-attachment:fixed;
 }
 .frontpage a {
 	text-decoration: none;

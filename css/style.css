@@ -102,7 +102,7 @@ a {
 	background-image: url('../media/images/gorilla.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-    -webkit-background-size: cover; 
+    -webkit-background-size: auto 100%; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover;
@@ -250,7 +250,17 @@ nav li:hover{
 	position:Absolute;
 	transform: translateX(-50%);
 	}
-	
+	.frontpage{
+	color:white;
+	background-image: url('../media/images/gorilla.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+	background-attachment:fixed;
+}
 
 
 	/*KOlumneja totaalissa 3, eli rivillä voi olla 2 + 1 tai 1 + 1 + 1*/

@@ -106,7 +106,7 @@ a {
     -moz-background-size: fill; 
     -o-background-size: fill; 
     background-size: fill;
-	background-attachment:fixed;
+	background-attachment:fixed; 
 }
 .frontpage a {
 	text-decoration: none;

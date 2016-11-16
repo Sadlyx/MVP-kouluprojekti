@@ -101,7 +101,7 @@ a {
 	color:white;
 	background-image: url('../media/images/gorilla-crop.jpg');
 	background-repeat: no-repeat;
-	background-position: center;
+	/*background-position: center;*/
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 

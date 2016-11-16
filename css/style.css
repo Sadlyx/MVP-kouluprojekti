@@ -116,13 +116,15 @@ nav a {
 
 #enterbtn {
 	display: block;
-	width: 100px;
+	width: 150px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 23em;
+	margin-top: 24em;
 	display: none;
 	font-family: Shrikhand, arial;
+	text-shadow: 1px 1px #000;
 }
+
 
 #enterbtn a:hover {
 	color: gray;

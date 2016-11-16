@@ -52,6 +52,7 @@ body {
 min-width:260px;
 }
 /*COLORS*/
+/*SET 1*/
 .color-0 { color: #fbfbfb }	/* Main Primary color */
 .color-1 { color: #FFDBC1 }
 .color-2 { color: #FFB784 }
@@ -64,7 +65,21 @@ min-width:260px;
 .bg-2 { background: #588d53 }
 .bg-3 { background: #FF6A00  }
 .bg-4 { background: #E76000  }
+.color-1 { color:#ACCCA9;}
+.color-2 { color:#7CA977;}
+.color-3 { color:#598D53;}
+.color-4 { color:#3D6E38;}
+.color-5 { color:#255D1F;}
 
+.bg-0 { background:#ACCCA9;}
+.bg-1 { background:#7CA977;}
+.bg-2 { background:#598D53;}
+.bg-3 { background:#3D6E38;}
+.bg-4 { background:#255D1F;}
+
+.bg-0{
+	background:#fbfbfb;
+}
 /*FONTS*/
 h1{
 	font-size:1.8rem;
@@ -113,6 +128,7 @@ nav a {
 	text-decoration: none;
 	color: white;
 }
+
 
 #enterbtn {
 	display: block;
@@ -339,6 +355,15 @@ main{
 }
 video{
 	width:100%;
+}
+/*onpage font*/
+.onpage, .onpage a, .onpage li{
+	color:black;
+	
+}
+.dropdown .onpage,.dropdown .onpage a, .dropdown .onpage li{
+	color:grey;
+	
 }
 /*footer*/
 

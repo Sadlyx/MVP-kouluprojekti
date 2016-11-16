@@ -33,6 +33,10 @@ $( document ).ready(function() {
 	});
 	$("#enterbtn").fadeIn(3200);
 	
+/*NAV KOROSTA NYKYISELLÄ SIVULLA OLO*/
+var current_path = window.location.pathname.split('/').pop();
+	$("a[href='"+current_path+"']").addClass("onpage");
+
 });
 
 

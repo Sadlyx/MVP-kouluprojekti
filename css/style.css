@@ -102,10 +102,10 @@ a {
 	background-image: url('../media/images/gorilla.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-    -webkit-background-size: auto 100%; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
+    -webkit-background-size: fill; 
+    -moz-background-size: fill; 
+    -o-background-size: fill; 
+    background-size: fill;
 	background-attachment:fixed;
 }
 .frontpage a {

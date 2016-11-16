@@ -33,11 +33,6 @@
 	$(".dropdown").mouseleave(function(){
 		$(this).fadeOut(250);
 	});
+	var current_path = window.location.pathname.split('/').pop();
+	$("a[href='"+current_path+"']").addClass("onpage");
 </script>
-<!--[if IE]>
-<style>
-body {
-margin-top:6rem;
-}
-</style>
-<![endif]-->

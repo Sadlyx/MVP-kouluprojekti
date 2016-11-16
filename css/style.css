@@ -52,30 +52,29 @@ body {
 min-width:260px;
 }
 /*COLORS*/
-.color-0 { color: #FF8128 }	/* Main Primary color */
+.color-0 { color: #fbfbfb }	/* Main Primary color */
 .color-1 { color: #FFDBC1 }
 .color-2 { color: #FFB784 }
 .color-3 { color: #FF6A00 }
 .color-4 { color: #E76000  }
 
 
-.bg-0 { background: #FF8128 }	/* Main Primary bg */
+.bg-0 { background: #fbfbfb }	/* Main Primary bg */
 .bg-1 { background: #FFDBC1 }
-.bg-2 { background: #FFB784 }
+.bg-2 { background: #588d53 }
 .bg-3 { background: #FF6A00  }
 .bg-4 { background: #E76000  }
 
 /*FONTS*/
 h1{
 	font-size:1.8rem;
-
 }
 h2{
 	font-size:1.6rem;
 }
 h3{
 	font-size:1.4rem;
-	font-family: Shrikhand, arial;
+
 }
 h4{
 	font-size:1.2rem;
@@ -93,8 +92,10 @@ main > ul{
 	padding:5px;
 }
 
-a {
+nav a {
 	font-family: 'Cutive Mono', arial;
+	text-decoration: none;
+	color: white;
 }
 
 .frontpage{
@@ -113,13 +114,36 @@ a {
 	color: white;
 }
 
+#enterbtn {
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 23em;
+	display: none;
+	font-family: Shrikhand, arial;
+}
+
+#enterbtn a:hover {
+	color: gray;
+	opacity: 0.25;
+}
+
 /*NAV PALKKI JA HEADER JA laatikointi*/
 header{
 	width:100%;
 	min-height:3rem;
 	position:fixed;
 	top:0;
-	z-index:1000;}.pagetitle{
+	z-index:1000;
+	box-shadow: -2px 0px 5px 0px;
+}
+
+.frontpage header {
+	box-shadow: 0px 0px 0px 0px;
+}
+	
+.pagetitle{
 	float:left;
 	line-height:3rem; 
 	padding-left:0.5rem;
@@ -159,9 +183,19 @@ nav ul li{
 .dropdown a{
 	word-break:keep-all;
 	white-space: nowrap;
+	color: black;
+}
+
+.frontpage .dropdown a {
+	color: white;
 }
 nav li:hover{
 	color:rgba(124,124,124,1);
+}
+
+header h3 {
+	color: white;
+	font-family: Shrikhand, arial;
 }
 
 /*KOlumneja totaalissa 3, eli rivillä voi olla 2 + 1 tai 1 + 1 + 1*/

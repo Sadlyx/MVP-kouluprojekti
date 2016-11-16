@@ -31,6 +31,8 @@ $( document ).ready(function() {
 	$(".dropdown").mouseleave(function(){
 		$(this).fadeOut(250);
 	});
+	$("#enterbtn").fadeIn(3200);
+	
 });
 
 

@@ -14,4 +14,4 @@ sieltä vaan muokkaa tiedostoja ja ns debugaa ihan omalla koneella avamaalla jok
 	
 sovelluksessa on "Sync" näppäin joka päivittää sinun locaalin hakemiston hithubista uudelleen, eli lataa muiden commitit. eli kannattaa välillä painella sitä, tai kun tultuu siltä että haluaa olla ajan tasalla. Sinun tekemiä muutoksia ei kuitenkaan poisteta
 
-sovelluksella yläreunassa on mustalla/tummalla pohjalla vaaka viiva jossa palloja, pallot kuvaa committeja ja ihan oikeassa reunassa on ns nyky hetki, eli voi tarkastella aikaisempia versioita.  
+sovelluksella yläreunassa on mustalla/tummalla pohjalla vaaka viiva jossa palloja, pallot kuvaa committeja ja ihan oikeassa reunassa on ns nyky hetki, eli voi tarkastella aikaisempia versioita.   

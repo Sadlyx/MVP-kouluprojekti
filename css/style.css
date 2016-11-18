@@ -132,13 +132,18 @@ nav a {
 
 #enterbtn {
 	display: block;
-	width: 150px;
+	text-align:center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 24em;
 	display: none;
 	font-family: Shrikhand, arial;
 	text-shadow: 1px 1px #000;
+	
+}
+#enterbtn::after{
+	content:'Enter';
+	font-weight:1.3rem;
 }
 
 
@@ -187,7 +192,8 @@ nav{
 nav ul li{
 	color:none;
 	padding:0.25rem;
-	font-size:1.15rem; 
+	font-size:1.25rem; 
+	
 }
 .dropdown{
 	display:none;
@@ -373,12 +379,16 @@ main{
 	margin-left:auto;
 	margin-right:auto;
 }
+.frontpage h1{
+	font-size:4rem;
+}
 video{
 	width:100%;
 }
 /*onpage font*/
 .onpage, .onpage a, .onpage li{
-	color:black;
+	/*color:black;*/
+	font-weight:bold;
 	
 }
 .dropdown .onpage,.dropdown .onpage a, .dropdown .onpage li{

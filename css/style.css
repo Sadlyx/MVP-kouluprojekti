@@ -222,6 +222,7 @@ header h3 {
 /*KOlumneja totaalissa 3, eli rivillä voi olla 2 + 1 tai 1 + 1 + 1*/
 /*speciaalina col-50 joka on 50% eli 2 kolumnia, voi yhdistää vaan toisen samanlaisen kanssa*/
 /*-small  kolumnit käytössä myös mobiilissa*/
+
 .col-1-small{
 	width:32%;
 	margin:0.6665%; 
@@ -258,6 +259,8 @@ header h3 {
 	padding:0.5rem;
 	min-height:15px;
 }
+
+
 .col-2{
 	width:98.666%; 
 	margin:0.6665%;
@@ -384,6 +387,30 @@ video{
 }
 /*footer*/
 
+footer {
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width:100%;
+	float:left;
+	padding:0.5rem;
+	min-height:7px;
+	box-shadow: 5px 5px 5px 5px;
+}
 
+footer a {
+	display: inline;
+	float: left;
+	font-size: 0.7em;
+	margin-left: 1em;
+}
 
+footer a:hover {
+	color: purple;
+}
 
+body {
+	margin-bottom:3em;
+}

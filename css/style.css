@@ -81,6 +81,15 @@ min-width:260px;
 	background:#fbfbfb;
 }
 /*FONTS*/
+
+.title {
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom: 6x;
+	margin-bottom: 6px;
+	font-family: Shrikhand;
+}
+
 h1{
 	font-size:1.8rem;
 }
@@ -280,7 +289,6 @@ header h3 {
 	float:left;
 	padding:0.5rem;
 	min-height:15px;
-	text-align: center;
 }
 .col-50{
 	width:98.666%; 
@@ -301,6 +309,10 @@ tr td:first-child {
 
 tr th {
 	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
 }
 
 /*footer*/
@@ -335,7 +347,7 @@ footer a:hover {
 }
 
 body {
-	margin-bottom:3em;
+	margin-bottom:7em;
 }
 
 
@@ -367,7 +379,7 @@ body {
 	transform: translateX(-50%);
 	}
 	
-
+	
 	.frontpage{
 	color:white;
 	background-image: url('../media/images/gorilla.jpg');

@@ -303,6 +303,44 @@ tr th {
 	font-weight: bold;
 }
 
+/*footer*/
+
+footer {
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width:100%;
+	float:left;
+	padding:0.5rem;
+	min-height:7px;
+	box-shadow: 5px 5px 5px 5px;
+}
+
+.frontpage footer {
+	box-shadow: 0px 0px 0px 0px;
+}
+
+
+footer a {
+	display: inline;
+	float: left;
+	font-size: 0.7em;
+	margin-left: 1em;
+}
+
+footer a:hover {
+	color: purple;
+}
+
+body {
+	margin-bottom:3em;
+}
+
+
+
+
 @media only screen and (min-width:36rem){ /*BIG SCREEN*/
 	nav{
 		float:right;	
@@ -328,6 +366,8 @@ tr th {
 	position:Absolute;
 	transform: translateX(-50%);
 	}
+	
+
 	.frontpage{
 	color:white;
 	background-image: url('../media/images/gorilla.jpg');
@@ -370,6 +410,7 @@ tr th {
 		float:left;
 		padding:0.5rem;
 		min-height:15px;
+		text-align: center;
 	}
 }
 /*main*/
@@ -394,38 +435,4 @@ video{
 .dropdown .onpage,.dropdown .onpage a, .dropdown .onpage li{
 	color:grey;
 	
-}
-/*footer*/
-
-footer {
-	position:fixed;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-	width:100%;
-	float:left;
-	padding:0.5rem;
-	min-height:7px;
-	box-shadow: 5px 5px 5px 5px;
-}
-
-.frontpage footer {
-	box-shadow: 0px 0px 0px 0px;
-}
-
-
-footer a {
-	display: inline;
-	float: left;
-	font-size: 0.7em;
-	margin-left: 1em;
-}
-
-footer a:hover {
-	color: purple;
-}
-
-body {
-	margin-bottom:3em;
 }

@@ -215,3 +215,7 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
+/media/videos/
+media/videos/
+media/videos/*
+/media/videos/*

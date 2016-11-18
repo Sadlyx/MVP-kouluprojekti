@@ -271,6 +271,7 @@ header h3 {
 	float:left;
 	padding:0.5rem;
 	min-height:15px;
+	text-align: center;
 }
 .col-50{
 	width:98.666%; 
@@ -278,6 +279,19 @@ header h3 {
 	float:left;
 	padding:0.5rem;
 	min-height:15px;
+}
+
+tr td,th{
+	padding: 2em;
+	border: 1px solid;
+}
+
+tr td:first-child {
+	font-weight: bold;
+}
+
+tr th {
+	font-weight: bold;
 }
 
 @media only screen and (min-width:36rem){ /*BIG SCREEN*/

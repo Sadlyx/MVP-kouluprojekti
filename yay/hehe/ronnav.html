@@ -1,0 +1,37 @@
+
+<ul>
+<a href="ronisivu.html"><li>Roni</li></a>
+<a href="ronisivu.html"><li>Roni</li></a>
+<a href="ronisivu.html"><li>Roni</li></a>
+<li><a href="#" class="d_btn">Roni</a>
+	<ul class="dropdown " data-parent="Roni">
+	<a href="ronisivu.html"><li>Roni</li></a>
+	<a href="ronisivu.html"><li>Roni</li></a>
+	<a href="ronisivu.html"><li>Roni</li></a>
+	<a href="ronisivu.html"><li>Roni</li></a>
+	<a href="ronisivu.html"><li>Roni</li></a>
+	<a href="ronisivu.html"><li>Roni</li></a>
+	</ul>
+	</li>
+<a href="ronisivu.html"><li>Roni</li></a>
+</ul>
+ 
+<script>
+	$(".d_btn").mouseenter(function(){
+		$(this).width($(this).width());
+		$("ul").find("[data-parent='" + $(this).html() + "']").fadeIn(250);
+			
+		});
+	$(".d_btn").click(function(){
+		if($("ul").find("[data-parent='" + $(this).html() + "']").css("opacity") == 1 && $("ul").find("[data-parent='" + $(this).html() + "']").css("display") != "none"){
+			$("ul").find("[data-parent='" + $(this).html() + "']").fadeOut(250);
+		} else{
+		$("ul").find("[data-parent='" + $(this).html() + "']").fadeIn(250);
+		} 
+	});
+	$(".dropdown").mouseleave(function(){
+		$(this).fadeOut(250);
+	});
+	var current_path = window.location.pathname.split('/').pop();
+	$("a[href='"+current_path+"']").addClass("onpage");
+</script>

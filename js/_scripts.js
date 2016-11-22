@@ -15,6 +15,8 @@ $("#mobile_menu_btn").click(function(){
 	$("#engmenu").load("../engnav.html"); 
 	$("#menu").load("../_nav.html"); 
 	$("#engmenu").load("../engnav.html"); 
+	$("#ronimenu").load("ronnav.html"); 
+	$("#ronimenu").load("../ronnav.html"); 
 	  
 $( document ).ready(function() {
 	$(".d_btn").mouseenter(function(){

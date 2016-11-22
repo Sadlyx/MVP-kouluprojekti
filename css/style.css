@@ -161,6 +161,16 @@ nav a {
 	opacity: 0.25;
 }
 
+#ronisivu {
+	text-decoration: none;
+	color: black;
+}
+
+#ronisivu:hover {
+	color: black;
+	cursor: default;
+}
+
 /*NAV PALKKI JA HEADER JA laatikointi*/
 header{
 	width:100%;

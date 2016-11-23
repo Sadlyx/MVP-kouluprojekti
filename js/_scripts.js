@@ -40,6 +40,7 @@ var current_path = window.location.pathname.split('/').pop();
 	$("a[href='"+current_path+"']").addClass("onpage");
 /*section header alle tilaa viemään*/
 $('header').after('<section class="headfill"></section>');
+$("body").append('<div style="clear:both;"></div>')
 });
 
 

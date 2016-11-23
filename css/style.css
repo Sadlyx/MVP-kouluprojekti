@@ -338,6 +338,10 @@ tr th {
 	max-width: 980px;
 }
 
+.ihansama p, .ihansama h2, .ihansama h4 {
+	padding: 5px;
+}
+
 /*footer*/
 
 footer {

@@ -216,10 +216,14 @@ nav ul li{
 }
 .dropdown{
 	display:none;
-	/*background:#D36A6A;*/
+	background:#598D53;
 	height:auto;
 	word-break:keep-all;
 	white-space: nowrap;
+	box-shadow:0px 2px 5px 1px black;
+}
+.frontpage .dropdown{
+	background:none;
 }
 .dropdown li{
 	float:none;
@@ -229,7 +233,7 @@ nav ul li{
 .dropdown a{
 	word-break:keep-all;
 	white-space: nowrap;
-	color: black;
+	color: white;
 }
 
 .frontpage .dropdown a {

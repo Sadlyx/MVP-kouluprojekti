@@ -84,7 +84,7 @@ min-width:260px;
 
 .title {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.4em;
 	padding-bottom: 6x;
 	margin-bottom: 6px;
 	font-family: Shrikhand;
@@ -192,6 +192,12 @@ header{
 	float:left;
 	line-height:3rem; 
 	padding-left:0.5rem;
+	
+}
+.pageheader{
+	margin-bottom: 25px; 
+	border-bottom:1px solid gray; 
+	font-size:1.8em;
 }
 #mobile_menu_btn{ 
 	width:3rem;
@@ -349,6 +355,7 @@ tr th {
 .ihansama li {
 	padding: 5px;
 	list-style-type: circle;
+	margin-left:10px;
 }
 
 
@@ -430,6 +437,19 @@ body {
 	background-attachment:fixed;
 }
 
+	/*Big SCEEN FONTIT*/
+	.title {
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom: 6x;
+	margin-bottom: 6px;
+	font-family: Shrikhand;
+	}
+	.pageheader{
+	margin-bottom: 25px; 
+	border-bottom:1px solid gray; 
+	font-size:3em;
+}
 
 	/*KOlumneja totaalissa 3, eli rivillä voi olla 2 + 1 tai 1 + 1 + 1*/
 	/*speciaalina col-50 joka on 50% eli 2 kolumnia, voi yhdistää vaan toisen samanlaisen kanssa*/
